@@ -5,18 +5,6 @@ $(document).ready(function(){
     //fade in and out effect jQuery
     $("html").fadeOut().fadeIn();
 
-
-    // Step 1 - Read the Zip code from the text box
-
-    // Step 2 - Define the URL for openweathermap based on the appid, units, and zip.
-    //          use appid=000c53231273df2ac9323e70eee830d4
-    
-    // Step 3 - use jQuery to make an Ajax call using the $.getJSON function.
-    //          After the result is returned, access the object properties based on
-    //          the format of the object returned. use reqbin or FireFox to study the structure
-    //          Refer to the Instructions.txt for the ids of the page elements and what they represent
-
-
     //Making the URL
 
     var api = "https://api.openweathermap.org/data/2.5/weather?";
